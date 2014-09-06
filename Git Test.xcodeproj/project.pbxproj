@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00DBB9C19BAC2EE00402278 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DBB9B19BAC2EE00402278 /* Test.m */; };
 		D0FC6C0C19BABFA200E65A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6C0B19BABFA200E65A9E /* main.m */; };
 		D0FC6C0F19BABFA200E65A9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6C0E19BABFA200E65A9E /* AppDelegate.m */; };
 		D0FC6C1219BABFA200E65A9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6C1119BABFA200E65A9E /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00DBB9A19BAC2EE00402278 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		D00DBB9B19BAC2EE00402278 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		D0FC6C0619BABFA200E65A9E /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC6C0A19BABFA200E65A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FC6C0B19BABFA200E65A9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 		D0FC6C0819BABFA200E65A9E /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				D00DBB9A19BAC2EE00402278 /* Test.h */,
+				D00DBB9B19BAC2EE00402278 /* Test.m */,
 				D0FC6C0D19BABFA200E65A9E /* AppDelegate.h */,
 				D0FC6C0E19BABFA200E65A9E /* AppDelegate.m */,
 				D0FC6C1019BABFA200E65A9E /* ViewController.h */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FC6C1219BABFA200E65A9E /* ViewController.m in Sources */,
+				D00DBB9C19BAC2EE00402278 /* Test.m in Sources */,
 				D0FC6C0F19BABFA200E65A9E /* AppDelegate.m in Sources */,
 				D0FC6C0C19BABFA200E65A9E /* main.m in Sources */,
 			);
@@ -401,6 +407,7 @@
 				D0FC6C2819BABFA300E65A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FC6C2919BABFA300E65A9E /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +416,7 @@
 				D0FC6C2B19BABFA300E65A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
